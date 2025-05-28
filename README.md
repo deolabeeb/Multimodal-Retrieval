@@ -69,7 +69,7 @@ uvicorn app.fastapi_app:app --reload
 - Output: Top 5 matching images from dataset
 
 ## 🧪 Dataset
-- **MS-COCO**: <a href="https://cocodataset.org/#download" target="_blank">https://cocodataset.org/#download</a>
+-<a href="https://cocodataset.org/#download" target="_blank">**MS-COCO**</a>
   - Use captions and images from the 2017 training set.
   - Format: Image file + associated text captions
 
