@@ -45,8 +45,8 @@ mkdir -p data/images data/captions
 ```
 
 Example dataset download links:
-- [MS COCO 2017 Images (train)](http://images.cocodataset.org/zips/train2017.zip)
-- [MS COCO Captions](https://github.com/tylin/coco-caption)
+- <a href="http://images.cocodataset.org/zips/train2017.zip" target="_blank">MS COCO 2017 Images (train)</a>
+- <a href="https://github.com/tylin/coco-caption" target="_blank">MS COCO Captions</a>
 
 ### 2. Build FAISS Index
 ```bash
@@ -69,7 +69,7 @@ uvicorn app.fastapi_app:app --reload
 - Output: Top 5 matching images from dataset
 
 ## 🧪 Dataset
-- **MS-COCO**: [https://cocodataset.org/#download](https://cocodataset.org/#download)
+- **MS-COCO**: <a href="https://cocodataset.org/#download" target="_blank">https://cocodataset.org/#download</a>
   - Use captions and images from the 2017 training set.
   - Format: Image file + associated text captions
 
